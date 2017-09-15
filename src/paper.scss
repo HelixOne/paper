@@ -1,0 +1,28 @@
+::ng-deep .paper {
+    .menu {
+        min-height: 50px;
+        button {
+            background-color: #f1f2f2;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 2px;
+        }
+    }
+    .pad {
+        min-height: 500px;
+        text-align: left;
+        border: 1px solid #eee;
+        padding: 5px;
+        background-color: #fbfbfb;
+        &:focus {
+            outline: none;
+            border: 1px solid #bbb;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            color: #333;
+        }
+    }
+}

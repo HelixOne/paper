@@ -1,0 +1,33 @@
+<div class="paper">
+  <div class="menu">
+    <button (click)="command('bold')" unselectable="on">
+      Bold
+    </button>
+    <button (click)="command('italic')" unselectable="on">
+      Italic
+    </button>
+    <button (click)="command('heading1')" unselectable="on">
+      Header
+    </button>
+    <button (click)="command('underline')" unselectable="on">
+      Underline
+    </button>
+    <button (click)="command('strikeThrough')" unselectable="on">
+      StrikeThrough
+    </button>
+    <button (click)="command('pre')" unselectable="on">
+      Code
+    </button>
+    <button (click)="command('strikeThrough')" unselectable="on">
+      StrikeThrough
+    </button>
+    <button (click)="command('line')" unselectable="on">
+      Insert Line
+    </button>
+    <button (click)="command('copy')">
+      Copy
+    </button>
+  </div>
+  <div class="pad" contentEditable="true">
+  </div>
+</div>
