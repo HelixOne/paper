@@ -10,7 +10,6 @@ import { Observer } from 'rxjs/Observer';
 import { Subscription } from 'rxjs/Subscription';
 import { DOCUMENT } from '@angular/platform-browser';
 import { PlatformRef } from '@angular/core';
-import { MessageBus } from '@angular/platform-webworker';
 
 @Injectable()
 export class PaperService {

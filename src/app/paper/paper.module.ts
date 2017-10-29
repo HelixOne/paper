@@ -8,5 +8,6 @@ import { CommonModule } from '@angular/common';
     imports: [CommonModule],
     declarations: [PaperComponent],
     providers: [PaperService],
+    exports: [PaperComponent],
 })
 export class PaperModule {}
