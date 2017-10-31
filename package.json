@@ -1,6 +1,6 @@
 {
-    "name": "@helixone/paper",
-    "version": "0.0.1",
+    "name": "@helix-one/paper",
+    "version": "0.0.2",
     "description": "An Angular wysiwyg editor",
     "author": "Zubair Lawrence <zubair@helix.one>",
     "license": "MIT",

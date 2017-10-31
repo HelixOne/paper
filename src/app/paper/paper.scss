@@ -1,10 +1,11 @@
 ::ng-deep .paper {
     .menu {
         min-height: 50px;
+        border-bottom: 1px solid #999;
         button {
-            background-color: #f1f2f2;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 0;
+            border: none;
             padding: 10px;
             margin: 2px;
         }
